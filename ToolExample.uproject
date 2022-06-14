@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{111AC3ED-47DC-1BB9-496E-52B5BF8E221F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ToolExample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ToolExampleEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
